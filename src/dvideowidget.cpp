@@ -16,6 +16,7 @@
  */
 
 #include "dvideowidget.h"
+#include "qpainterpath.h"
 #include <DObjectPrivate>
 
 #include <QAbstractVideoSurface>
@@ -210,7 +211,7 @@ void DVideoWidget::setSourceVideoPixelRatio(const qreal ratio)
     d->ratio = ratio;
 }
 
-const qreal DVideoWidget::sourceVideoPixelRatio() const
+qreal DVideoWidget::sourceVideoPixelRatio() const
 {
     D_DC(DVideoWidget);
 

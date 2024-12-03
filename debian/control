@@ -5,11 +5,11 @@ Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
 Build-Depends: debhelper (>= 9),
  pkg-config,
  cmake,
- libdtkwidget-dev,
+ libdtkwidget2-dev,
  libdframeworkdbus-dev,
- libdmr-dev,
+ libgxmr-dev,
  libffmpegthumbnailer-dev,
- libdtkcore-dev,
+ libdtkcore2-dev,
  libdtkcore-bin,
  qttools5-dev
 Standards-Version: 3.9.8
