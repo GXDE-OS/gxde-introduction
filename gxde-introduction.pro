@@ -79,26 +79,18 @@ icon.files = resources/gxde-introduction.svg
 
 INSTALLS += desktop target icon qm_files
 
-host_mips64 | host_sw_64 : {
+#host_mips64 | host_sw_64 : {
     DEFINES += DISABLE_VIDEO
     HEADERS -= src/modules/videowidget.h
     SOURCES -= src/modules/videowidget.cpp
     PKGCONFIG -= libgxmr
-}
+#}
 
-deepin_professional {
-    DEFINES += PROFESSIONAL
-    videos.path = $$PREFIX/share/gxde-introduction/
-    videos.files += resources/professional/*.mp4
-    videos.files += resources/professional/*.ass
-    INSTALLS += videos
-}
 
-deepin_desktop {
-    videos.path = $$PREFIX/share/gxde-introduction/
-    videos.files += resources/desktop/*.mp4
-    videos.files += resources/desktop/*.ass
-    INSTALLS += videos
-}
+videos.path = $$PREFIX/share/gxde-introduction/
+videos.files += resources/desktop/*.mp4
+videos.files += resources/desktop/*.ass
+INSTALLS += videos
+
 
 DISTFILES +=

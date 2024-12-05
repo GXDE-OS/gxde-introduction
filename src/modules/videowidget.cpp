@@ -119,6 +119,7 @@ VideoWidget::VideoWidget(bool autoPlay, QWidget *parent)
 
     m_video->play(QUrl::fromLocalFile(qt_findAtNxFile(file, devicePixelRatioF(), &ratio)));
 
+    m_video->adjustSize();
     QTimer::singleShot(1000, this, [=] {
         m_pauseTimer->setInterval(m_video->engine().duration() * 1000);
     });
@@ -194,7 +195,7 @@ void VideoWidget::updateControlButton()
         m_control->setHoverPic(":/resources/play_hover.svg");
         m_control->setPressPic(":/resources/play_press.svg");
         if (m_btnAni->startValue().toPoint() == p) {
-            m_hideEffect->setOpacity(1);
+            m_hideEffect->setOpacity(0);
             m_control->show();
             m_leaveTimer->stop();
             m_btnAni->stop();
@@ -226,6 +227,7 @@ void VideoWidget::onControlButtonClicked()
 
     updateControlButton();
 }
+
 
 void VideoWidget::enterEvent(QEvent *e)
 {
