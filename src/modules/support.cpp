@@ -38,21 +38,21 @@ Support::Support(QWidget *parent)
                                   "<li>%16</li>"
                                   "</ul></body>")
             .arg(tr("Internationalization"))
-            .arg(tr("deepin was born in China and aimed to go global. So as to make it possible for more and more users from around the world to experience the Linux distribution from China, let the system widely spread all over the world and enlarge its global impact, we hope that more and more people from the Linux community can join to help the translation work to let our open source work benefit the world!"))
+            .arg(tr("GXDE was born in China and aimed to go global. So as to make it possible for more and more users from around the world to experience the Linux distribution from China, let the system widely spread all over the world and enlarge its global impact, we hope that more and more people from the Linux community can join to help the translation work to let our open source work benefit the world!"))
             .arg(tr("The i18n translation work is mainly about:"))
-            .arg(tr("deepin: Joining the document writing and i18n work to let our open source work benefit the world!"))
-            .arg(tr("Deepin community: Providing community news, download, mirrors, projects and a gathering place for developers!"))
+            .arg(tr("GXDE: Joining the document writing and i18n work to let our open source work benefit the world!"))
+            .arg(tr("GXDE community: Providing community news, download, mirrors, projects and a gathering place for developers!"))
             .arg(tr("Welcome to join i18n project."))
             .arg(tr("Donations"))
-            .arg(tr("The development of deepin can not move on without community support, for further improve the construction of the deepin community environment, Deepin Technology has made the decision to officially open channels of donation."))
-            .arg(tr("The donation upholds the principle of completely voluntary and no matter who you are, wherever you are, how much you contribute, are all making contributions to the development of Deepin community and we are very grateful for your donation."))
+            .arg(tr("The development of GXDE can not move on without community support, for further improve the construction of the GXDE community environment, GXDE Community has made the decision to officially open channels of donation."))
+            .arg(tr("The donation upholds the principle of completely voluntary and no matter who you are, wherever you are, how much you contribute, are all making contributions to the development of GXDE community and we are very grateful for your donation."))
             .arg(tr("The donation aims to make a survey and decide the orientation and priority of the projects, support the continuous further development, and support community activities and construction."))
             .arg(tr("Internal Testing"))
-            .arg(tr("For quality assurance of the deepin project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will"))
-            .arg(tr("Get the latest achievements of deepin and software timely."))
-            .arg(tr("Obtain the latest development plans and progress of deepin project in advance."))
-            .arg(tr("Be on deepin contributors list."))
-            .arg(tr("Outstanding members will get a souvenir of deepin."));
+            .arg(tr("For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will"))
+            .arg(tr("Get the latest achievements of GXDE and software timely."))
+            .arg(tr("Obtain the latest development plans and progress of GXDE project in advance."))
+            .arg(tr("Be on GXDE contributors list."))
+            .arg(tr("Outstanding members will get a souvenir of GXDE."));
 
     label->setText(text);
 }

@@ -16,15 +16,21 @@ BottomNavigation::BottomNavigation(QWidget *parent)
     layout->setContentsMargins(20, 10, 20, 14);
     layout->setSpacing(10);
 
-    DImageButton *sinaBtn = new DImageButton(":/resources/weibo.svg",
-                                             ":/resources/weibo.svg",
-                                             ":/resources/weibo.svg");
+//    DImageButton *sinaBtn = new DImageButton(":/resources/weibo.svg",
+//                                             ":/resources/weibo.svg",
+//                                             ":/resources/weibo.svg");
+    DImageButton *QQ = new DImageButton(":/resources/QQ.svg",
+                                             ":/resources/QQ.svg",
+                                             ":/resources/QQ.svg");
     DImageButton *twitterBtn = new DImageButton(":/resources/Twitter.svg",
                                                 ":/resources/Twitter.svg",
                                                 ":/resources/Twitter.svg");
     DImageButton *facebook = new DImageButton(":/resources/Facebook.svg",
                                               ":/resources/Facebook.svg",
                                               ":/resources/Facebook.svg");
+    DImageButton *discord = new DImageButton(":/resources/discord-logo-blue.svg",
+                                              ":/resources/discord-logo-blue.svg",
+                                              ":/resources/discord-logo-blue.svg");
 
     DImageButton *offical = new DImageButton;
     offical->setText(tr("Home Page"));
@@ -49,7 +55,8 @@ BottomNavigation::BottomNavigation(QWidget *parent)
 
     QList<DImageButton*> list;
 
-    list << sinaBtn << twitterBtn << facebook << offical << community << feedback << help
+//    list << sinaBtn << twitterBtn << facebook << offical << community << feedback << help
+      list << discord << QQ << offical << community << feedback << help
 #ifndef PROFESSIONAL
     << thank
 #endif
@@ -60,29 +67,31 @@ BottomNavigation::BottomNavigation(QWidget *parent)
         connect(w, &DImageButton::clicked, this, &BottomNavigation::onButtonClicked);
     }
 
-    m_buttons[sinaBtn] = "https://weibo.com/p/1006062675284423/home";
-    m_buttons[twitterBtn] = "https://twitter.com/linux_deepin";
-    m_buttons[facebook] = "https://www.facebook.com/deepinlinux/";
+    //m_buttons[sinaBtn] = "https://weibo.com/p/1006062675284423/home";
+    m_buttons[discord] = "https://discord.gg/t5Uf2xYpvA";
+    m_buttons[QQ] = "https://www.gxde.org/QQ.jpg";
+    //m_buttons[twitterBtn] = "https://twitter.com/linux_deepin";
+    //m_buttons[facebook] = "https://www.facebook.com/deepinlinux/";
 
 #ifndef PROFESSIONAL
-    m_buttons[offical] = "https://www.deepin.org/";
+    m_buttons[offical] = "https://www.gxde.org/";
 #else
-    m_buttons[offical] = "https://www.deepin.com/";
+    m_buttons[offical] = "https://www.gxde.org/";
 #endif
-    m_buttons[community] = "https://bbs.deepin.org/";
-    m_buttons[feedback] = "http://feedback.deepin.org/";
+    m_buttons[community] = "https://gitee.com/GXDE-OS/";
+    m_buttons[feedback] = "https://www.gxde.org/install/#%E6%B2%9F%E9%80%9A%E6%B8%A0%E9%81%93";
 #ifndef PROFESSIONAL
-    m_buttons[thank] = "https://www.deepin.org/acknowledgments/deepin/";
+    m_buttons[thank] = "https://gitee.com/organizations/GXDE-OS/members/list";
 #endif
-    m_buttons[mail] = "mailto:support@deepin.com";
+    m_buttons[mail] = "mailto:3025613752@qq.com";
 
     connect(help, &DImageButton::clicked, this, [=] {
-        QProcess::startDetached("/usr/bin/dman");
+        QProcess::startDetached("xdg-open https://www.gxde.org/install/faq");
     });
 
-    layout->addWidget(sinaBtn, 0, Qt::AlignCenter);
-    layout->addWidget(twitterBtn, 0, Qt::AlignCenter);
-    layout->addWidget(facebook, 0, Qt::AlignCenter);
+    layout->addWidget(discord, 0, Qt::AlignCenter);
+    layout->addWidget(QQ, 0, Qt::AlignCenter);
+ //   layout->addWidget(facebook, 0, Qt::AlignCenter);
     layout->addStretch();
     layout->addWidget(offical, 0, Qt::AlignCenter);
     layout->addWidget(community, 0, Qt::AlignCenter);

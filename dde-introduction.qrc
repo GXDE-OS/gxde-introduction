@@ -51,5 +51,7 @@
         <file>resources/slide_small/03.jpg</file>
         <file>resources/slide_small/01.jpg</file>
         <file>resources/slide_small/04.jpg</file>
+        <file>resources/discord-logo-blue.svg</file>
+        <file>resources/QQ.svg</file>
     </qresource>
 </RCC>

@@ -79,11 +79,11 @@ icon.files = resources/dde-introduction.svg
 
 INSTALLS += desktop target icon qm_files
 
-host_mips64 | host_sw_64 | host_aarch64: {
+host_mips64 | host_sw_64 : {
     DEFINES += DISABLE_VIDEO
     HEADERS -= src/modules/videowidget.h
     SOURCES -= src/modules/videowidget.cpp
-    PKGCONFIG -= libdmr
+    PKGCONFIG -= libgxmr
 }
 
 deepin_professional {
@@ -100,3 +100,5 @@ deepin_desktop {
     videos.files += resources/desktop/*.ass
     INSTALLS += videos
 }
+
+DISTFILES +=
