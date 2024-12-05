@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 
     DApplication::loadDXcbPlugin();
     DApplication a(argc, argv);
-    a.setApplicationName("dde-introduction");
+    a.setApplicationName("gxde-introduction");
 
     // dapplication default setting is true
     a.setAttribute(Qt::AA_ForceRasterWidgets, false);

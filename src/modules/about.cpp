@@ -17,6 +17,8 @@ About::About(QWidget *parent)
     setWidget(label);
 
     label->setMargin(20);
+    label->setTextInteractionFlags(Qt::TextBrowserInteraction);
+    label->setOpenExternalLinks(true);
 
     QString text;
 
@@ -40,10 +42,10 @@ About::About(QWidget *parent)
             .arg(tr("GXDE Desktop, rebirth from the deepin 15 era, not only brings back the classic experience but also introduces a range of extended components, experience enhancements, and bug fixes. It offers both familiarity and innovation, ensuring a smoother and more versatile user experience."))
             .arg(tr("Various Components and Experiences "))
             .arg(tr("GXDE OS integrates several community open-source projects, including a top bar, global menu, Spark App Store, AmberCE compatibility environment, and fantascene dynamic wallpapers. It supports the deepin Linyaps package too. "))
-            .arg(tr("One-Click App Installation without typing commands. "))
+            .arg(tr("One-Click App Installation without typing commands "))
             .arg(tr("Spark APP Store is built in with GXDE OS, enabling users to effortlessly discover and install essential applications without needing to use the command line. Also, simply replace apt with aptss will apt with aptss command can boost your download speed."))
             .arg(tr("Open source project"))
-            .arg(tr("GXDE is an open source desktop system developed for common users. You are free to download, distribute, modify and use it. Your Support is Our Greatest Motivation. Detailed address is https://gitee.com/GXDE-OS"));
+            .arg(tr("GXDE is an open source desktop system developed for common users. You are free to download, distribute, modify and use it. Your Support is Our Greatest Motivation. Detailed address is <a href='https://gitee.com/GXDE-OS' target='_blank' rel='noreferrer'>https://gitee.com/GXDE-OS</a>"));
 
 
     label->setText(text);

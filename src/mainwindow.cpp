@@ -42,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
     , m_last(nullptr)
     , m_currentAni(new QPropertyAnimation(this))
     , m_lastAni(new QPropertyAnimation(this))
-    , m_settings(new QSettings("deepin", "dde-introduction"))
+    , m_settings(new QSettings("GXDE", "gxde-introduction"))
     , m_displayInter(new WMSwitcherInter("com.deepin.WMSwitcher", "/com/deepin/WMSwitcher", QDBusConnection::sessionBus(), this))
 {
     initUI();

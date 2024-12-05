@@ -52,7 +52,7 @@ NormalModule::NormalModule(QWidget *parent)
 
     QLabel *logo = new QLabel(this);
     QIcon::setThemeName("hicolor");
-    QPixmap pixmap = std::move(QIcon::fromTheme("dde-introduction", QIcon(":/resources/dde-introduction.svg")).pixmap(QSize(24, 24) * devicePixelRatioF()));
+    QPixmap pixmap = std::move(QIcon::fromTheme("gxde-introduction", QIcon(":/resources/gxde-introduction.svg")).pixmap(QSize(24, 24) * devicePixelRatioF()));
     pixmap.setDevicePixelRatio(devicePixelRatioF());
     logo->setPixmap(pixmap);
     logo->move(rect().topLeft() + QPoint(12, 8));
@@ -170,8 +170,8 @@ NormalModule::NormalModule(QWidget *parent)
     // support button
     NavigationButton * supportBtn = new NavigationButton;
     m_buttonMap[supportBtn] = ++moduleCount;
-    supportBtn->setText(tr("Support us"));
-    m_titleMap[supportBtn] = tr("Support us");
+    supportBtn->setText(tr("Get Support"));
+    m_titleMap[supportBtn] = tr("Get Support");
     m_buttonGrp->addButton(supportBtn);
     Support *support = new Support(this);
     support->hide();

@@ -17,12 +17,12 @@ Support::Support(QWidget *parent)
     setWidget(label);
 
     label->setMargin(20);
+    label->setTextInteractionFlags(Qt::TextBrowserInteraction);
+    label->setOpenExternalLinks(true);
 
     const QString &text = QString("<body style=\"line-height: 18px;font-size:12px;font-style: normal;\">"
                                   "<div style=\"font-style: medium;font-size: 16px;\">%1</div>"
                                   "<br>%2"
-                                  "<br>%3"
-                                  "<br>%4"
                                   "<br>%5"
                                   "<br>%6"
                                   "<br><div style=\"font-style: medium;font-size: 16px;\">%7</div>"
@@ -37,22 +37,22 @@ Support::Support(QWidget *parent)
                                   "<li>%15</li>"
                                   "<li>%16</li>"
                                   "</ul></body>")
-            .arg(tr("Internationalization"))
-            .arg(tr("GXDE was born in China and aimed to go global. So as to make it possible for more and more users from around the world to experience the Linux distribution from China, let the system widely spread all over the world and enlarge its global impact, we hope that more and more people from the Linux community can join to help the translation work to let our open source work benefit the world!"))
-            .arg(tr("The i18n translation work is mainly about:"))
-            .arg(tr("GXDE: Joining the document writing and i18n work to let our open source work benefit the world!"))
-            .arg(tr("GXDE community: Providing community news, download, mirrors, projects and a gathering place for developers!"))
-            .arg(tr("Welcome to join i18n project."))
-            .arg(tr("Donations"))
-            .arg(tr("The development of GXDE can not move on without community support, for further improve the construction of the GXDE community environment, GXDE Community has made the decision to officially open channels of donation."))
-            .arg(tr("The donation upholds the principle of completely voluntary and no matter who you are, wherever you are, how much you contribute, are all making contributions to the development of GXDE community and we are very grateful for your donation."))
-            .arg(tr("The donation aims to make a survey and decide the orientation and priority of the projects, support the continuous further development, and support community activities and construction."))
+            .arg(tr("Feedback & User Groups"))
+            .arg(tr("GXDE OS use Discord and Tencent QQ Group. You can click the button below to join our group conveniently"))
+            .arg(tr("<a href='https://www.gxde.org/QQ.jpg' target='_blank' rel='noreferrer'>Click to join QQ Group</a>"))
+            .arg(tr("<a href='https://discord.gg/t5Uf2xYpvA' target='_blank' rel='noreferrer'>Click to join Discord Group</a>"))
+//            .arg(tr(""))
+//            .arg(tr(""))
+            .arg(tr("FAQ"))
+            .arg(tr("FAQs can be found at the links below"))
+            .arg(tr("<a href='https://www.gxde.org/en/install/faq' target='_blank' rel='noreferrer'>Click to check FAQs</a>"))
+            .arg(tr("You can create PR to enrich the list and help. <a href='https://gitee.com/GXDE-OS/gxde-os.github.io' target='_blank' rel='noreferrer'>Click to Git Repo</a>"))
             .arg(tr("Internal Testing"))
             .arg(tr("For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will"))
             .arg(tr("Get the latest achievements of GXDE and software timely."))
             .arg(tr("Obtain the latest development plans and progress of GXDE project in advance."))
-            .arg(tr("Be on GXDE contributors list."))
-            .arg(tr("Outstanding members will get a souvenir of GXDE."));
+            .arg(tr("Need advanced skill and be prepared to encounter bugs and errors"))
+            .arg(tr("Find the entrance at Control Center --> Update --> Internal test settings"));
 
     label->setText(text);
 }

@@ -41,7 +41,7 @@ static QDir ResourcesQDir() {
     videoPath.cd("resources/desktop");
 #endif
 #else
-    videoPath.cd("../share/dde-introduction");
+    videoPath.cd("../share/gxde-introduction");
 #endif
     return videoPath;
 }

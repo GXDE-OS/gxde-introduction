@@ -1,4 +1,4 @@
-Source: dde-introduction
+Source: gxde-introduction
 Section: utils
 Priority: optional
 Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
@@ -15,8 +15,8 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
 Homepage: http://www.deepin.org
 
-Package: dde-introduction
+Package: gxde-introduction
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Introduction for deepin
- Deepin initialization setup tool
+Description: Introduction for GXDE
+ GXDE initialization setup tool
