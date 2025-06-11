@@ -1,4 +1,4 @@
-gxde-introduction (1.2.0-1) unstable; urgency=medium
+gxde-introduction (1.2.0-2) unstable; urgency=medium
 
   * Initial Release for GXDE
   * 依赖修改为 libgxframeworkdbus2
