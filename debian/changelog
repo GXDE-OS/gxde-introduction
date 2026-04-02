@@ -1,11 +1,8 @@
 gxde-introduction (1.2.1) UNRELEASED; urgency=medium
 
+  * Initial Release for GXDE
+  * 依赖修改为 libgxframeworkdbus2
   * 新增配置完成页面
 
  -- gfdgd_xi <3025613752@qq.com>  Thu, 02 Apr 2026 22:52:54 +0800
 
-gxde-introduction (1.2.0) unstable; urgency=medium
-
-  * Initial Release for GXDE
-
- -- Deepin Packages Builder <packages@deepin.com>  Wed, 11 Oct 2017 17:38:35 +0800
