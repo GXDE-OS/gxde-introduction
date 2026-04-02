@@ -25,6 +25,7 @@ HEADERS += \
     src/modules/support.h \
     src/modules/videowidget.h \
     src/modules/wmmodemodule.h \
+    src/modules/welcomemodule.h \
     src/widgets/basewidget.h \
     src/widgets/borderwidget.h \
     src/widgets/bottomnavigation.h \
@@ -48,6 +49,7 @@ SOURCES += \
     src/modules/support.cpp \
     src/modules/videowidget.cpp \
     src/modules/wmmodemodule.cpp \
+    src/modules/welcomemodule.cpp \
     src/widgets/basewidget.cpp \
     src/widgets/borderwidget.cpp \
     src/widgets/bottomnavigation.cpp \

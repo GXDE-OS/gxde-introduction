@@ -54,6 +54,7 @@ private:
 
   BaseModuleWidget *initDesktopModeModule();
   BaseModuleWidget *initWMModeModule();
+  QWidget *initWelcomeModule();
   BaseModuleWidget *initIconModule();
 
 private:

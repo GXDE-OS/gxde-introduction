@@ -53,5 +53,6 @@
         <file>resources/slide_small/04.jpg</file>
         <file>resources/discord-logo-blue.svg</file>
         <file>resources/QQ.svg</file>
+        <file>resources/welcome.png</file>
     </qresource>
 </RCC>

@@ -22,6 +22,7 @@
 #include "modules/iconmodule.h"
 #include "modules/normalmodule.h"
 #include "modules/photoslide.h"
+#include "modules/welcomemodule.h"
 #include "basemodulewidget.h"
 
 #include <QHBoxLayout>
@@ -140,14 +141,15 @@ void MainWindow::initUI()
 
 #ifndef DISABLE_VIDEO
         m_current = new VideoWidget(true, m_fakerWidget);
+        m_current->setFixedSize(WINDOW_SIZE);
         m_nextBtn->setMode(NextButton::Transparent);
 #else
         m_current = new PhotoSlide(m_fakerWidget);
         m_nextBtn->setMode(NextButton::Normal);
         static_cast<PhotoSlide*>(m_current)->start(false, false, 2000);
         m_nextBtn->setMode(NextButton::Normal);
-        m_index = 1;
 #endif
+        m_index = 1;
         m_previousBtn->hide();
         m_nextBtn->show();
     } else {
@@ -250,11 +252,14 @@ void MainWindow::updateModule(const int index)
     }
     case 4:
         m_current = initIconModule();
+        break;
+    case 5:
+        m_current = initWelcomeModule();
         m_nextBtn->hide();
         m_doneBtn->show();
         m_doneBtn->setFocus();
         break;
-    case 5:
+    case 6:
 //        m_current = new NormalModule(m_fakerWidget);
 //        m_nextBtn->hide();
 //        m_previousBtn->hide();
@@ -296,6 +301,21 @@ BaseModuleWidget *MainWindow::initWMModeModule()
     BaseModuleWidget* w = new BaseModuleWidget(module, m_fakerWidget);
     w->setTitle(tr("Please select to enable window effect or not"));
     w->setDescribe(tr("You can enable or disable it in Control Center > Personalization > Enable window effect, or use shortcuts Shift+Super+Tab"));
+    w->setFixedSize(WINDOW_SIZE);
+    return w;
+}
+
+QWidget *MainWindow::initWelcomeModule()
+{
+    WelcomeModule *module = new WelcomeModule;
+    module->updateBigIcon();
+
+    QWidget *w = new QWidget(m_fakerWidget);
+    QVBoxLayout *layout = new QVBoxLayout(w);
+    layout->setMargin(0);
+    layout->setSpacing(0);
+    layout->addWidget(module, 0, Qt::AlignCenter);
+
     w->setFixedSize(WINDOW_SIZE);
     return w;
 }
