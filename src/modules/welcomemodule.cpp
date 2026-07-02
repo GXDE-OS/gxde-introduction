@@ -11,7 +11,7 @@ WelcomeModule::WelcomeModule(QWidget *parent)
     m_selectBtn->hide();
 
     QVBoxLayout *layout = new QVBoxLayout(this);
-    layout->setMargin(0);
+    layout->setContentsMargins(0, 0, 0, 0);
     layout->setSpacing(0);
     setLayout(layout);
 

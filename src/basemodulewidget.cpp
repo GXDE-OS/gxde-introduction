@@ -25,7 +25,7 @@ BaseModuleWidget::BaseModuleWidget(QWidget *content, QWidget *parent)
     , m_titleLbl(new QLabel(this))
     , m_describeLbl(new QLabel(this))
 {
-    m_layout->setMargin(0);
+    m_layout->setContentsMargins(0, 0, 0, 0);
     m_layout->setSpacing(0);
 
     m_describeLbl->setFixedSize(460, 40);

@@ -26,7 +26,7 @@ IconModule::IconModule(QWidget *parent)
     , m_layout(new DFlowLayout)
 {
     QHBoxLayout *layout = new QHBoxLayout;
-    layout->setMargin(0);
+    layout->setContentsMargins(0, 0, 0, 0);
     layout->setSpacing(0);
     layout->addWidget(m_scroll, 0, Qt::AlignCenter);
     setLayout(layout);
@@ -37,14 +37,14 @@ IconModule::IconModule(QWidget *parent)
 
     m_scrollWidget->installEventFilter(this);
 
-    widgetLayout->setMargin(0);
+    widgetLayout->setContentsMargins(0, 0, 0, 0);
     widgetLayout->setSpacing(0);
     widgetLayout->addStretch();
     widgetLayout->addLayout(m_layout);
     widgetLayout->addStretch();
 
     m_layout->setSpacing(0);
-    m_layout->setMargin(0);
+    m_layout->setContentsMargins(0, 0, 0, 0);
     m_layout->setContentsMargins(15, 8, 20, -10);
     m_layout->setVerticalSpacing(30);
 

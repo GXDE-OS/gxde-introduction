@@ -47,7 +47,7 @@ void NextButton::paintEvent(QPaintEvent *event)
     }
 }
 
-void NextButton::enterEvent(QEvent *event)
+void NextButton::enterEvent(QEnterEvent *event)
 {
     QPushButton::enterEvent(event);
 

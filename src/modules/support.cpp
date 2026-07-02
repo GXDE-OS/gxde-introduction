@@ -16,7 +16,7 @@ Support::Support(QWidget *parent)
 
     setWidget(label);
 
-    label->setMargin(20);
+    label->setContentsMargins(20, 20, 20, 20);
     label->setTextInteractionFlags(Qt::TextBrowserInteraction);
     label->setOpenExternalLinks(true);
 

@@ -29,10 +29,6 @@
 #include <DTitlebar>
 #include <DPlatformWindowHandle>
 
-#ifndef DISABLE_VIDEO
-#include "modules/videowidget.h"
-#endif
-
 DWIDGET_USE_NAMESPACE
 
 static const QSize WINDOW_SIZE { 700, 450 };
@@ -139,16 +135,10 @@ void MainWindow::initUI()
     if (isFirst) {
         m_settings->setValue("IsFirst", false);
 
-#ifndef DISABLE_VIDEO
-        m_current = new VideoWidget(true, m_fakerWidget);
-        m_current->setFixedSize(WINDOW_SIZE);
-        m_nextBtn->setMode(NextButton::Transparent);
-#else
         m_current = new PhotoSlide(m_fakerWidget);
         m_nextBtn->setMode(NextButton::Normal);
         static_cast<PhotoSlide*>(m_current)->start(false, false, 2000);
         m_nextBtn->setMode(NextButton::Normal);
-#endif
         m_index = 1;
         m_previousBtn->hide();
         m_nextBtn->show();
@@ -158,17 +148,10 @@ void MainWindow::initUI()
         m_nextBtn->hide();
     }
 #else
-#ifndef DISABLE_VIDEO
-//        m_current = new VideoWidget(true, m_fakerWidget);
-    m_current = new PhotoSlide(m_fakerWidget);
-    m_nextBtn->setMode(NextButton::Normal);
-    static_cast<PhotoSlide*>(m_current)->start(false, false, 2000);
-#else
 //        m_current = initDesktopModeModule();
     m_current = new PhotoSlide(m_fakerWidget);
     m_nextBtn->setMode(NextButton::Normal);
     static_cast<PhotoSlide*>(m_current)->start(false, false, 2000);
-#endif
     m_previousBtn->hide();
     m_nextBtn->show();
     m_nextBtn->setMode(NextButton::Transparent);
@@ -215,15 +198,9 @@ void MainWindow::updateModule(const int index)
     m_last = m_current;
     switch (index) {
     case 1:
-#ifndef DISABLE_VIDEO
-        m_current = new VideoWidget(true, m_fakerWidget);
-        m_current->setFixedSize(WINDOW_SIZE);
-        m_nextBtn->setMode(NextButton::Transparent);
-#else
         m_current = new PhotoSlide(m_fakerWidget);
         m_nextBtn->setMode(NextButton::Normal);
         static_cast<PhotoSlide*>(m_current)->start(false, false, 1000);
-#endif
         m_previousBtn->hide();
         break;
     case 2:
@@ -312,7 +289,7 @@ QWidget *MainWindow::initWelcomeModule()
 
     QWidget *w = new QWidget(m_fakerWidget);
     QVBoxLayout *layout = new QVBoxLayout(w);
-    layout->setMargin(0);
+    layout->setContentsMargins(0, 0, 0, 0);
     layout->setSpacing(0);
     layout->addWidget(module, 0, Qt::AlignCenter);
 

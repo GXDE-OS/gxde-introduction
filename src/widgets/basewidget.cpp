@@ -28,7 +28,7 @@ BaseWidget::BaseWidget(QWidget *parent)
     , m_title(new QLabel(this))
     , m_borderWidget(new BorderWidget(this))
 {
-    m_layout->setMargin(0);
+    m_layout->setContentsMargins(0, 0, 0, 0);
     m_layout->setSpacing(0);
 
     m_layout->addWidget(m_borderWidget, 0, Qt::AlignCenter);

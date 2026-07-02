@@ -5,13 +5,14 @@ Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
 Build-Depends: debhelper (>= 9),
  pkg-config,
  cmake,
- libdtkwidget2-dev,
- libgxframeworkdbus-dev,
+ libdtk2widget6-dev,
+ libdframeworkdbus-qt6-dev,
  libgxmr-dev,
  libffmpegthumbnailer-dev,
- libdtkcore2-dev,
- libdtkcore-bin,
- qttools5-dev
+ libdtk6core-dev,
+ libdtk6core-bin,
+ qt6-l10n-tools,
+ qt6-base-dev,
 Standards-Version: 3.9.8
 Homepage: http://www.deepin.org
 

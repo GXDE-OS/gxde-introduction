@@ -1,11 +1,18 @@
 TARGET = gxde-introduction
 TEMPLATE = app
-QT = core gui widgets dbus multimedia multimediawidgets
+QT = core gui widgets dbus
 CONFIG += link_pkgconfig c++11
-PKGCONFIG += dtkwidget dframeworkdbus libgxmr
+# Qt6 version of dframeworkdbus (libdframeworkdbus-qt6)
+DFRAMEWORK_PATH = $$(DFRAMEWORK_PATH)
+isEmpty(DFRAMEWORK_PATH) {
+    INCLUDEPATH += /usr/include/libdframeworkdbus-qt6-6.0
+} else {
+    INCLUDEPATH += $$DFRAMEWORK_PATH/include/libdframeworkdbus-qt6-6.0
+    LIBS += -L$$DFRAMEWORK_PATH/lib
+}
+LIBS += -ldframeworkdbus-qt6
+PKGCONFIG += dtk2widget
 DESTDIR    = $$_PRO_FILE_PWD_
-
-#load(dtk_qmake)
 
 isEmpty(PREFIX){
     PREFIX = /usr
@@ -23,7 +30,6 @@ HEADERS += \
     src/modules/moduleinterface.h \
     src/modules/normalmodule.h \
     src/modules/support.h \
-    src/modules/videowidget.h \
     src/modules/wmmodemodule.h \
     src/modules/welcomemodule.h \
     src/widgets/basewidget.h \
@@ -31,7 +37,6 @@ HEADERS += \
     src/widgets/bottomnavigation.h \
     src/widgets/navigationbutton.h \
     src/widgets/nextbutton.h \
-    src/dvideowidget.h \
     src/modules/photoslide.h
 
 SOURCES += \
@@ -47,7 +52,6 @@ SOURCES += \
     src/modules/moduleinterface.cpp \
     src/modules/normalmodule.cpp \
     src/modules/support.cpp \
-    src/modules/videowidget.cpp \
     src/modules/wmmodemodule.cpp \
     src/modules/welcomemodule.cpp \
     src/widgets/basewidget.cpp \
@@ -55,7 +59,6 @@ SOURCES += \
     src/widgets/bottomnavigation.cpp \
     src/widgets/navigationbutton.cpp \
     src/widgets/nextbutton.cpp \
-    src/dvideowidget.cpp \
     src/modules/photoslide.cpp
 
 RESOURCES += \
@@ -69,6 +72,8 @@ target.path = $$PREFIX/bin/
 TRANSLATIONS = translations/gxde-introduction_zh_CN.ts
 
 # Automating generation .qm files from .ts files
+DEFINES += DISABLE_VIDEO
+
 CONFIG(release, debug|release) {
     system($$PWD/translate_generation.sh)
 }
@@ -80,19 +85,5 @@ icon.path = $$PREFIX/share/icons/hicolor/scalable/apps
 icon.files = resources/gxde-introduction.svg
 
 INSTALLS += desktop target icon qm_files
-
-#host_mips64 | host_sw_64 : {
-    DEFINES += DISABLE_VIDEO
-    HEADERS -= src/modules/videowidget.h
-    SOURCES -= src/modules/videowidget.cpp
-    PKGCONFIG -= libgxmr
-#}
-
-
-videos.path = $$PREFIX/share/gxde-introduction/
-videos.files += resources/desktop/*.mp4
-videos.files += resources/desktop/*.ass
-INSTALLS += videos
-
 
 DISTFILES +=

@@ -26,10 +26,6 @@
 #include "photoslide.h"
 #include "../widgets/bottomnavigation.h"
 
-#ifndef DISABLE_VIDEO
-#include "videowidget.h"
-#endif
-
 NormalModule::NormalModule(QWidget *parent)
     : QWidget(parent)
     , m_leftNavigationLayout(new QVBoxLayout)
@@ -40,19 +36,19 @@ NormalModule::NormalModule(QWidget *parent)
     , m_index(-1)
 {
     QHBoxLayout *layout = new QHBoxLayout;
-    layout->setMargin(0);
+    layout->setContentsMargins(0, 0, 0, 0);
     layout->setSpacing(0);
 
-    m_leftNavigationLayout->setMargin(0);
+    m_leftNavigationLayout->setContentsMargins(0, 0, 0, 0);
     m_leftNavigationLayout->setSpacing(10);
 
     m_rightContentLayout->setSpacing(0);
-    m_rightContentLayout->setMargin(0);
+    m_rightContentLayout->setContentsMargins(0, 0, 0, 0);
     m_rightContentLayout->setContentsMargins(0, 0, 0, 0);
 
     QLabel *logo = new QLabel(this);
     QIcon::setThemeName("hicolor");
-    QPixmap pixmap = std::move(QIcon::fromTheme("gxde-introduction", QIcon(":/resources/gxde-introduction.svg")).pixmap(QSize(24, 24) * devicePixelRatioF()));
+    QPixmap pixmap = QIcon::fromTheme("gxde-introduction", QIcon(":/resources/gxde-introduction.svg")).pixmap(QSize(24, 24) * devicePixelRatioF());
     pixmap.setDevicePixelRatio(devicePixelRatioF());
     logo->setPixmap(pixmap);
     logo->move(rect().topLeft() + QPoint(12, 8));
@@ -97,7 +93,7 @@ NormalModule::NormalModule(QWidget *parent)
 
     QVBoxLayout *mainLayout = new QVBoxLayout;
     mainLayout->setSpacing(0);
-    mainLayout->setMargin(0);
+    mainLayout->setContentsMargins(0, 0, 0, 0);
     mainLayout->addSpacing(15);
     mainLayout->addWidget(titleLabel, 0, Qt::AlignCenter);
     mainLayout->addLayout(layout);
@@ -111,17 +107,7 @@ NormalModule::NormalModule(QWidget *parent)
     int moduleCount = 0;
     bool allow_switch_wm = m_wmSwitcher->AllowSwitch();
 
-#ifndef DISABLE_VIDEO
-    // video button
-    NavigationButton * videoBtn = new NavigationButton;
-    m_buttonMap[videoBtn]   = ++moduleCount;
-    videoBtn->setText(tr("Introduction"));
-    m_titleMap[videoBtn] = tr("Welcome");
-    m_buttonGrp->addButton(videoBtn);
-    VideoWidget *videoModule = new VideoWidget(false, this);
-    videoModule->hide();
-    m_modules[moduleCount] = videoModule;
-#else
+    // slide button
     NavigationButton *slideBtn = new NavigationButton;
     m_buttonMap[slideBtn] = ++moduleCount;
     slideBtn->setText(tr("Introduction"));
@@ -131,7 +117,6 @@ NormalModule::NormalModule(QWidget *parent)
     slideModule->hide();
     slideModule->start(false, false, 2000);
     m_modules[moduleCount] = slideModule;
-#endif
 
     // desktop button
     NavigationButton * desktopBtn = new NavigationButton;
@@ -188,13 +173,8 @@ NormalModule::NormalModule(QWidget *parent)
     about->hide();
     m_modules[moduleCount] = about;
 
-#ifndef DISABLE_VIDEO
-    videoBtn->setChecked(true);
-    titleLabel->setText(m_titleMap[videoBtn]);
-#else
     slideBtn->setChecked(true);
     titleLabel->setText(m_titleMap[slideBtn]);
-#endif
 
     m_buttonGrp->setExclusive(true);
 
@@ -213,11 +193,7 @@ NormalModule::NormalModule(QWidget *parent)
         titleLabel->setText(m_titleMap[btn]);
     });
 
-#ifndef DISABLE_VIDEO
-    updateCurrentWidget(m_buttonMap[videoBtn]);
-#else
     updateCurrentWidget(m_buttonMap[slideBtn]);
-#endif
 }
 
 bool NormalModule::eventFilter(QObject *watched, QEvent *event)
