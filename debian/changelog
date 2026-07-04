@@ -1,8 +1,9 @@
-gxde-introduction (2.0.0) UNRELEASED; urgency=medium
+gxde-introduction (2.0.1) UNRELEASED; urgency=medium
 
   * Initial Release for GXDE
   * 依赖修改为 libgxframeworkdbus2
   * 新增配置完成页面
   * Qt6 适配
+  * 完善翻译
 
  -- gfdgd_xi <3025613752@qq.com>  Thu, 02 Jul 2026 22:39:27 +0800
