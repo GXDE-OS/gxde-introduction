@@ -198,7 +198,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">सहायता प्राप्त करें</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -332,7 +332,8 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">तैयार है! GXDE आपके लिए पूरी तरह से तैयार है।
+अब अपने उत्पादक यात्रा पर निकलें।</translation>
     </message>
 </context>
 </TS>

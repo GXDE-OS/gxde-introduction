@@ -11,7 +11,7 @@
     <message>
         <location filename="../src/modules/about.cpp" line="39"/>
         <source>GXDE OS is an Debian based Linux distro featuring GXDE Desktop Environment. It offers an elegant, beautifu, light weight and out-of-the-box experience.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="40"/>
@@ -218,7 +218,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation>取得支援</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -301,42 +301,42 @@
     <message>
         <location filename="../src/modules/support.cpp" line="40"/>
         <source>Feedback &amp; User Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>意見與使用者群組</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="41"/>
         <source>GXDE OS use Discord and Tencent QQ Group. You can click the button below to join our group conveniently</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS 使用 Discord 和騰訊 QQ 群組。您可以點擊下方按鈕方便地加入我們的群組</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="42"/>
         <source>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join QQ Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;點擊加入 QQ 群組&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="43"/>
         <source>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join Discord Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;點擊加入 Discord 群組&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="46"/>
         <source>FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">常見問題</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="47"/>
         <source>FAQs can be found at the links below</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">以下連結可找到常見問題解答</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="48"/>
         <source>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to check FAQs&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;點擊查看常見問題解答&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="49"/>
         <source>You can create PR to enrich the list and help. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to Git Repo&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">您可以建立 PR 來豐富清單並提供幫助。&lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;點擊前往 Git 儲存庫&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="50"/>
@@ -346,27 +346,27 @@
     <message>
         <location filename="../src/modules/support.cpp" line="51"/>
         <source>For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">為了確保 GXDE 專案的品質，我們歡迎更多人參與內部測試和反饋追蹤。成為內部測試團隊成員，您將</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="52"/>
         <source>Get the latest achievements of GXDE and software timely.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">及時獲得 GXDE 和軟體的最新成就。</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="53"/>
         <source>Obtain the latest development plans and progress of GXDE project in advance.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">提前獲取 GXDE 專案的最新開發計劃和進度。</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="54"/>
         <source>Need advanced skill and be prepared to encounter bugs and errors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">需要高級技能並做好遇到錯誤和問題的準備</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="55"/>
         <source>Find the entrance at Control Center --&gt; Update --&gt; Internal test settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在控制中心 --&gt; 更新 --&gt; 内部測試設置找到入口</translation>
     </message>
     <message>
         <source>Get the latest achievements of deepin and software timely.</source>

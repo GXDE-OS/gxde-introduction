@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="lo">
+<TS version="2.1" language="lo_LA">
 <context>
     <name>About</name>
     <message>
         <location filename="../src/modules/about.cpp" line="38"/>
         <source>About us</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="39"/>
@@ -64,27 +64,27 @@
     <message>
         <location filename="../src/widgets/bottomnavigation.cpp" line="36"/>
         <source>Home Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ໜ້າຫຼັກ</translation>
     </message>
     <message>
         <location filename="../src/widgets/bottomnavigation.cpp" line="39"/>
         <source>Community</source>
-        <translation type="unfinished"></translation>
+        <translation>ຄູມມຸນິທີ</translation>
     </message>
     <message>
         <location filename="../src/widgets/bottomnavigation.cpp" line="42"/>
         <source>Feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>ຂໍ້ອບຮາຍງານ</translation>
     </message>
     <message>
         <location filename="../src/widgets/bottomnavigation.cpp" line="45"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>ຊ່ວງການສະໝັກ</translation>
     </message>
     <message>
         <location filename="../src/widgets/bottomnavigation.cpp" line="49"/>
         <source>Acknowledgements</source>
-        <translation type="unfinished"></translation>
+        <translation>ຄຸນສຳລັບທີມ</translation>
     </message>
 </context>
 <context>
@@ -92,12 +92,12 @@
     <message>
         <location filename="../src/modules/desktopmodemodule.cpp" line="27"/>
         <source>Efficient Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ໂມດລະສັບການທີ່ມັນຄວາມຊ້ອງດ້ວຍ</translation>
     </message>
     <message>
         <location filename="../src/modules/desktopmodemodule.cpp" line="28"/>
         <source>Fashion Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ໂມດລະສັບການທີ່ມັນຄວາມຊ້ອງດ້ວຍສິລະພາບ</translation>
     </message>
 </context>
 <context>
@@ -154,50 +154,50 @@
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="139"/>
         <source>Desktop mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ໂມດລິດເກັບສະຖານ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="149"/>
         <source>Icon theme</source>
-        <translation type="unfinished"></translation>
+        <translation>ໃຫ້ທີມຄຳອິກອນ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="161"/>
         <source>Window effect</source>
-        <translation type="unfinished"></translation>
+        <translation>ພັດທະນາງສ່ວນມຸດ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation>ຮ້າຍຄ່າກັບພະນິຄອງສະຖານ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="184"/>
         <location filename="../src/modules/normalmodule.cpp" line="185"/>
         <source>About us</source>
-        <translation type="unfinished"></translation>
+        <translation>ກ່ຽວກັບພວກເຮົາ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="119"/>
         <location filename="../src/modules/normalmodule.cpp" line="128"/>
         <source>Welcome</source>
-        <translation type="unfinished"></translation>
+        <translation>ຍິນດີທາງສະມາຊິກ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="140"/>
         <source>Please select desktop mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ກະລຸນາເລືອກໂມດລິດເກັບສະຖານ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="150"/>
         <source>Please select icon theme</source>
-        <translation type="unfinished"></translation>
+        <translation>ກະລຸນາເລືອກໃຫ້ທີມຄຳອິກອນ</translation>
     </message>
     <message>
         <location filename="../src/modules/normalmodule.cpp" line="162"/>
         <source>Please select to enable window effect or not</source>
-        <translation type="unfinished"></translation>
+        <translation>ກະລຸນາເລືອກໃຫ້ສັ່ງພັດທະນາງສ່ວນມຸດກ່ຽວກັບພວກເຮົາ</translation>
     </message>
 </context>
 <context>
@@ -278,12 +278,12 @@
     <message>
         <location filename="../src/modules/wmmodemodule.cpp" line="27"/>
         <source>Disable window effect</source>
-        <translation type="unfinished"></translation>
+        <translation>ຍ້າງການສະໝັບວິນດູຄຳ</translation>
     </message>
     <message>
         <location filename="../src/modules/wmmodemodule.cpp" line="28"/>
         <source>Enable window effect</source>
-        <translation type="unfinished"></translation>
+        <translation>ສະໝັບວິນດູຄຳ</translation>
     </message>
 </context>
 <context>

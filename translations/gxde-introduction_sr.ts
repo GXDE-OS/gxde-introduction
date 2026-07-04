@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sr">
+<TS version="2.1" language="sr_RS">
 <context>
     <name>About</name>
     <message>
@@ -11,47 +11,47 @@
     <message>
         <location filename="../src/modules/about.cpp" line="39"/>
         <source>GXDE OS is an Debian based Linux distro featuring GXDE Desktop Environment. It offers an elegant, beautifu, light weight and out-of-the-box experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS je distribucija bazirana na Debianu sa okruženjem za radnu površinu GXDE. Nudi elegantno, lepo, lagano i gotovo iskustvo iz kutije.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="40"/>
         <source>Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristike</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="41"/>
         <source>Classic and Extended Deepin DE Experience</source>
-        <translation type="unfinished"></translation>
+        <translation>Klasično i prošireno iskustvo Deepin DE</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="42"/>
         <source>GXDE Desktop, rebirth from the deepin 15 era, not only brings back the classic experience but also introduces a range of extended components, experience enhancements, and bug fixes. It offers both familiarity and innovation, ensuring a smoother and more versatile user experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE radna površina, ponovo rođena iz ere Deepin 15, ne samo da vraća klasično iskustvo već uvodi i niz proširenih komponenti, poboljšanja iskustva i ispravki grešaka. Nudi i poznato i inovativno, osiguravajući glatkije i raznolikije korisničko iskustvo.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="43"/>
         <source>Various Components and Experiences </source>
-        <translation type="unfinished"></translation>
+        <translation>Razne komponente i iskustva</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="44"/>
         <source>GXDE OS integrates several community open-source projects, including a top bar, global menu, Spark App Store, AmberCE compatibility environment, and fantascene dynamic wallpapers. It supports the deepin Linyaps package too. </source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS integriše nekoliko zajedničkih otvorenih projekata sa izvorima, uključujući traku na vrhu, globalno meni, Spark App Store, okruženje za kompatibilnost AmberCE i dinamičke pozadine fantascene. Podržava i paket deepin Linyaps.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="45"/>
         <source>One-Click App Installation without typing commands </source>
-        <translation type="unfinished"></translation>
+        <translation>Instalacija aplikacije u jednom kliku bez unosa naredbi</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="46"/>
         <source>Spark APP Store is built in with GXDE OS, enabling users to effortlessly discover and install essential applications without needing to use the command line. Also, simply replace apt with aptss will apt with aptss command can boost your download speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spark APP Store je ugrađen sa GXDE OS-om, omogućavajući korisnicima da bez napora otkriju i instaliraju bitne aplikacije bez potrebe za korišćenjem komandnog retka. Takođe, jednostavno zamenite apt sa aptss naredbom može poboljšati brzinu preuzimanja.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="48"/>
         <source>GXDE is an open source desktop system developed for common users. You are free to download, distribute, modify and use it. Your Support is Our Greatest Motivation. Detailed address is &lt;a href=&apos;https://gitee.com/GXDE-OS&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;https://gitee.com/GXDE-OS&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE je otvoreni sistem za radnu površinu razvijen za obične korisnike. Slobodni ste da ga preuzmete, distribuirate, modifikujete i koristite. Vaša podrška je naš najveći motivator. Detaljani adresa je &lt;a href=&apos;https://gitee.com/GXDE-OS&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;https://gitee.com/GXDE-OS&lt;/a&gt;</translation>
     </message>
     <message>
         <source>deepin is a Linux distribution committed to providing elegant, user-friendly, safe and stable experience for users all over the world. It not only integrates and configures the best open-source products, but also develops a series of applications for daily use, such as Deepin Store, Deepin Screenshot, Deepin Music, Deepin Movie and so on, among which Deepin Desktop Environment and Deepin Control Center are based on Qt technology. deepin focuses on user-friendly experience and beautiful design, so it’s easy to install and use for most users and can well replace Windows for work and entertainment.</source>
@@ -218,7 +218,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Помоћ</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -301,42 +301,42 @@
     <message>
         <location filename="../src/modules/support.cpp" line="40"/>
         <source>Feedback &amp; User Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>Повратне информације &amp; Корисничке групе</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="41"/>
         <source>GXDE OS use Discord and Tencent QQ Group. You can click the button below to join our group conveniently</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS користи Discord и Tencent QQ Групу. Можете кликнути дугме испод да се прикључите нашој групи лако</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="42"/>
         <source>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join QQ Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Кликните да се прикључите QQ групи&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="43"/>
         <source>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join Discord Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Кликните да се прикључите Discord групи&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="46"/>
         <source>FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Често постављана питања</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="47"/>
         <source>FAQs can be found at the links below</source>
-        <translation type="unfinished"></translation>
+        <translation>Често постављена питања могу се наћи на линковима испод</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="48"/>
         <source>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to check FAQs&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Кликните да проверите Често постављена питања&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="49"/>
         <source>You can create PR to enrich the list and help. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to Git Repo&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Можете направити ПР да обогатите листу и помогнете. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Кликните на Git Репо&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="50"/>
@@ -346,27 +346,27 @@
     <message>
         <location filename="../src/modules/support.cpp" line="51"/>
         <source>For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will</source>
-        <translation type="unfinished"></translation>
+        <translation>За осигуравање квалитета пројекта GXDE, радо дочекујемо више људи да учествују у унутрашњем тестирању и праћењу повратних информација. Постанете члан Тим за унутрашње тестирање, ћете</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="52"/>
         <source>Get the latest achievements of GXDE and software timely.</source>
-        <translation type="unfinished"></translation>
+        <translation>Добити најновије постигнућа GXDE-а и софтвера на време.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="53"/>
         <source>Obtain the latest development plans and progress of GXDE project in advance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Добити најновије планове развоја и напредовање пројекта GXDE унапред.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="54"/>
         <source>Need advanced skill and be prepared to encounter bugs and errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Потребно је напредно вештина и бити спреман да се сусретнете са грешкама и погрешкама</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="55"/>
         <source>Find the entrance at Control Center --&gt; Update --&gt; Internal test settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Нађите улаз на Контролни центар --&gt; Ажурирања --&gt; Поставке за унутрашње тестирање</translation>
     </message>
     <message>
         <source>Get the latest achievements of deepin and software timely.</source>
@@ -404,7 +404,8 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremni! GXDE je spreman za vas.
+Krenite na svoj produktivan put sada.</translation>
     </message>
 </context>
 </TS>
