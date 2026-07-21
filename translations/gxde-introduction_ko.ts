@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ko">
+<TS version="2.1" language="ko_KR">
 <context>
     <name>About</name>
     <message>
@@ -218,7 +218,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation>지원 받기</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -301,42 +301,42 @@
     <message>
         <location filename="../src/modules/support.cpp" line="40"/>
         <source>Feedback &amp; User Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>피드백 및 사용자 그룹</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="41"/>
         <source>GXDE OS use Discord and Tencent QQ Group. You can click the button below to join our group conveniently</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS는 디스코드와 텐센트 QQ 그룹을 사용합니다. 아래 버튼을 클릭하여 편리하게 우리 그룹에 가입할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="42"/>
         <source>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join QQ Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;QQ 그룹에 가입하려면 클릭하세요&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="43"/>
         <source>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join Discord Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;디스코드 그룹에 가입하려면 클릭하세요&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="46"/>
         <source>FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>자주 묻는 질문</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="47"/>
         <source>FAQs can be found at the links below</source>
-        <translation type="unfinished"></translation>
+        <translation>아래 링크를 통해 자주 묻는 질문을 확인할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="48"/>
         <source>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to check FAQs&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;자주 묻는 질문을 확인하려면 클릭하세요&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="49"/>
         <source>You can create PR to enrich the list and help. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to Git Repo&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>목록을 풍부하게 하고 도움을 줄 수 있는 PR을 생성할 수 있습니다. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Git 저장소로 이동하려면 클릭하세요&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="50"/>
@@ -346,27 +346,27 @@
     <message>
         <location filename="../src/modules/support.cpp" line="51"/>
         <source>For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE 프로젝트의 품질 보증을 위해 내부 테스트 및 피드백 추적에 더 많은 사람들이 참여할 것을 환영합니다. 내부 테스트 팀 멤버가 되면</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="52"/>
         <source>Get the latest achievements of GXDE and software timely.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE와 소프트웨어의 최신 성과를 신속하게 얻습니다.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="53"/>
         <source>Obtain the latest development plans and progress of GXDE project in advance.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE 프로젝트의 최신 개발 계획 및 진행 상황을 미리 확인합니다.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="54"/>
         <source>Need advanced skill and be prepared to encounter bugs and errors</source>
-        <translation type="unfinished"></translation>
+        <translation>고급 기술이 필요하며 버그와 오류에 대비해야 합니다</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="55"/>
         <source>Find the entrance at Control Center --&gt; Update --&gt; Internal test settings</source>
-        <translation type="unfinished"></translation>
+        <translation>제어 센터 -&gt; 업데이트 -&gt; 내부 테스트 설정에서 입구를 찾습니다</translation>
     </message>
     <message>
         <source>Get the latest achievements of deepin and software timely.</source>
@@ -404,7 +404,7 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished"></translation>
+        <translation>준비되었습니다! GXDE가 준비되었습니다. 생산적인 여정을 시작하세요.</translation>
     </message>
 </context>
 </TS>

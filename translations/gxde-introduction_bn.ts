@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="bn">
+<TS version="2.1" language="bn_BD">
 <context>
     <name>About</name>
     <message>
@@ -218,7 +218,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">সহায়তা পান</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -404,7 +404,8 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">তৈরি! GXDE আপনার জন্য সবকিছু প্রস্তুত।
+আপনি এখনই আপনার উৎপাদনশীল যাত্রা শুরু করুন।</translation>
     </message>
 </context>
 </TS>

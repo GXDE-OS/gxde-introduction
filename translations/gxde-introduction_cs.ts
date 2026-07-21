@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="cs">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>About</name>
     <message>
@@ -11,47 +11,47 @@
     <message>
         <location filename="../src/modules/about.cpp" line="39"/>
         <source>GXDE OS is an Debian based Linux distro featuring GXDE Desktop Environment. It offers an elegant, beautifu, light weight and out-of-the-box experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS je distribuce Linux založená na Debianu s prostředím GXDE Desktop. Nabízí elegantní, krásné, lehké a hotové zkušenosti.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="40"/>
         <source>Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlastnosti</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="41"/>
         <source>Classic and Extended Deepin DE Experience</source>
-        <translation type="unfinished"></translation>
+        <translation>Klasické a rozšířené prostředí Deepin DE</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="42"/>
         <source>GXDE Desktop, rebirth from the deepin 15 era, not only brings back the classic experience but also introduces a range of extended components, experience enhancements, and bug fixes. It offers both familiarity and innovation, ensuring a smoother and more versatile user experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE Desktop, znovuzrození z éry Deepin 15, nejenže vrátí klasické zážitky, ale také představuje řadu rozšířených komponentů, vylepšení zážitků a oprav chyb. Nabízí jak známé prvky, tak inovace, zajišťující hladší a víceverzitní uživatelské prostředí.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="43"/>
         <source>Various Components and Experiences </source>
-        <translation type="unfinished"></translation>
+        <translation>Různé součásti a zážitky</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="44"/>
         <source>GXDE OS integrates several community open-source projects, including a top bar, global menu, Spark App Store, AmberCE compatibility environment, and fantascene dynamic wallpapers. It supports the deepin Linyaps package too. </source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS integruje několik komunálních open-source projektů, včetně horního panelu, globálního menu, obchodu s aplikacemi Spark, kompatibilního prostředí AmberCE a dynamických tapet fantascene. Podporuje také balíček deepin Linyaps.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="45"/>
         <source>One-Click App Installation without typing commands </source>
-        <translation type="unfinished"></translation>
+        <translation>Instalace aplikací jedním kliknutím bez zadávání příkazů</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="46"/>
         <source>Spark APP Store is built in with GXDE OS, enabling users to effortlessly discover and install essential applications without needing to use the command line. Also, simply replace apt with aptss will apt with aptss command can boost your download speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obchod s aplikacemi Spark je součástí GXDE OS, což umožňuje uživatelům snadno objevovat a instalovat důležité aplikace bez potřeby používat příkazový řádek. Také jednoduše nahraďte apt za aptss, aby se zvýšila rychlost stažení.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="48"/>
         <source>GXDE is an open source desktop system developed for common users. You are free to download, distribute, modify and use it. Your Support is Our Greatest Motivation. Detailed address is &lt;a href=&apos;https://gitee.com/GXDE-OS&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;https://gitee.com/GXDE-OS&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE je systém pro pracovní plochu s otevřeným zdrojovým kódem vyvinutý pro běžné uživatele. Můžete si jej stáhnout, distribuovat, upravovat a používat zdarma. Vaše podpora je naším největším motivací. Podrobná adresa je &lt;a href=&apos;https://gitee.com/GXDE-OS&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;https://gitee.com/GXDE-OS&lt;/a&gt;</translation>
     </message>
     <message>
         <source>deepin is a Linux distribution committed to providing elegant, user-friendly, safe and stable experience for users all over the world. It not only integrates and configures the best open-source products, but also develops a series of applications for daily use, such as Deepin Store, Deepin Screenshot, Deepin Music, Deepin Movie and so on, among which Deepin Desktop Environment and Deepin Control Center are based on Qt technology. deepin focuses on user-friendly experience and beautiful design, so it’s easy to install and use for most users and can well replace Windows for work and entertainment.</source>
@@ -218,7 +218,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Získat podporu</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -301,42 +301,42 @@
     <message>
         <location filename="../src/modules/support.cpp" line="40"/>
         <source>Feedback &amp; User Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpětná vazba &amp; Uživatelské skupiny</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="41"/>
         <source>GXDE OS use Discord and Tencent QQ Group. You can click the button below to join our group conveniently</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS používá Discord a skupinu Tencent QQ. Můžete kliknout na tlačítko níže, abyste se snadno připojili k našemu skupině</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="42"/>
         <source>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join QQ Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klikněte pro připojení k skupině QQ&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="43"/>
         <source>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join Discord Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klikněte pro připojení ke skupině Discord&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="46"/>
         <source>FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Často kladené otázky</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="47"/>
         <source>FAQs can be found at the links below</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpovědi na nejčastější dotazy naleznete v odkazech níže</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="48"/>
         <source>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to check FAQs&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klikněte pro zobrazení odpovědí na nejčastější dotazy&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="49"/>
         <source>You can create PR to enrich the list and help. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to Git Repo&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Můžete vytvořit PR pro obohacení seznamu a pomoc. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klikněte na Git Repo&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="50"/>
@@ -346,27 +346,27 @@
     <message>
         <location filename="../src/modules/support.cpp" line="51"/>
         <source>For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro zajištění kvality projektu GXDE vítáme více lidí k účasti na interním testování a sledování zpětné vazby. Stane se členem týmu pro interní testování, budete</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="52"/>
         <source>Get the latest achievements of GXDE and software timely.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostanete nejnovější úspěchy GXDE a softwaru včas.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="53"/>
         <source>Obtain the latest development plans and progress of GXDE project in advance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Získáte nejnovější plány a postupy vývoje projektu GXDE předem.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="54"/>
         <source>Need advanced skill and be prepared to encounter bugs and errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Potřebujete pokročilé dovednosti a musíte být připraveni na setkání s chybami a chybami</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="55"/>
         <source>Find the entrance at Control Center --&gt; Update --&gt; Internal test settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Naleznete vstup v Ovládacím centru --&gt; Aktualizace --&gt; Nastavení interního testování</translation>
     </message>
     <message>
         <source>Get the latest achievements of deepin and software timely.</source>
@@ -404,7 +404,8 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished"></translation>
+        <translation>Připraveno! GXDE je pro vás nastaveno. 
+Vydávejte se na svou produktivní cestu teď.</translation>
     </message>
 </context>
 </TS>

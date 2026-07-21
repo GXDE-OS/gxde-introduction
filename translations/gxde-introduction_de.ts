@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -11,47 +11,47 @@
     <message>
         <location filename="../src/modules/about.cpp" line="39"/>
         <source>GXDE OS is an Debian based Linux distro featuring GXDE Desktop Environment. It offers an elegant, beautifu, light weight and out-of-the-box experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS ist eine auf Debian basierende Linux-Distribution mit der GXDE-Desktop-Umgebung. Sie bietet ein elegantes, schönes, leichtgewichtiges und sofort einsatzbereites Erlebnis.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="40"/>
         <source>Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Merkmale</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="41"/>
         <source>Classic and Extended Deepin DE Experience</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassisches und erweitertes Deepin DE-Erlebnis</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="42"/>
         <source>GXDE Desktop, rebirth from the deepin 15 era, not only brings back the classic experience but also introduces a range of extended components, experience enhancements, and bug fixes. It offers both familiarity and innovation, ensuring a smoother and more versatile user experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der GXDE-Desktop, eine Wiedergeburt aus der Deepin-15-Ära, bringt nicht nur das klassische Erlebnis zurück, sondern führt auch eine Reihe erweiterter Komponenten, Verbesserungen des Erlebnisses und Fehlerbehebungen ein. Er bietet sowohl Vertrautheit als auch Innovation und sorgt für ein reibungsloseres und vielseitigeres Benutzererlebnis.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="43"/>
         <source>Various Components and Experiences </source>
-        <translation type="unfinished"></translation>
+        <translation>Verschiedene Komponenten und Erfahrungen</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="44"/>
         <source>GXDE OS integrates several community open-source projects, including a top bar, global menu, Spark App Store, AmberCE compatibility environment, and fantascene dynamic wallpapers. It supports the deepin Linyaps package too. </source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS integriert mehrere Open-Source-Projekte der Community, darunter eine obere Leiste, ein globales Menü, den Spark-App-Store, die AmberCE-Kompatibilitätsumgebung und dynamische Fantascene-Hintergründe. Es unterstützt auch das Deepin-Linyaps-Paket.</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="45"/>
         <source>One-Click App Installation without typing commands </source>
-        <translation type="unfinished"></translation>
+        <translation>Ein-Klick-App-Installation ohne Eingabe von Befehlen</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="46"/>
         <source>Spark APP Store is built in with GXDE OS, enabling users to effortlessly discover and install essential applications without needing to use the command line. Also, simply replace apt with aptss will apt with aptss command can boost your download speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Spark-App-Store ist in GXDE OS integriert und ermöglicht es Benutzern, wichtige Anwendungen mühelos zu entdecken und zu installieren, ohne die Befehlszeile verwenden zu müssen. Außerdem kann der Austausch von apt durch aptss den Downloadgeschwindigkeit erhöhen</translation>
     </message>
     <message>
         <location filename="../src/modules/about.cpp" line="48"/>
         <source>GXDE is an open source desktop system developed for common users. You are free to download, distribute, modify and use it. Your Support is Our Greatest Motivation. Detailed address is &lt;a href=&apos;https://gitee.com/GXDE-OS&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;https://gitee.com/GXDE-OS&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE ist ein Open-Source-Desktop-System, das für normale Benutzer entwickelt wurde. Sie dürfen es herunterladen, verteilen, ändern und verwenden. Ihre Unterstützung ist unsere größte Motivation. Die detaillierte Adresse lautet &lt;a href=&apos;https://gitee.com/GXDE-OS&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;https://gitee.com/GXDE-OS&lt;/a&gt;</translation>
     </message>
     <message>
         <source>deepin is a Linux distribution committed to providing elegant, user-friendly, safe and stable experience for users all over the world. It not only integrates and configures the best open-source products, but also develops a series of applications for daily use, such as Deepin Store, Deepin Screenshot, Deepin Music, Deepin Movie and so on, among which Deepin Desktop Environment and Deepin Control Center are based on Qt technology. deepin focuses on user-friendly experience and beautiful design, so it’s easy to install and use for most users and can well replace Windows for work and entertainment.</source>
@@ -218,7 +218,7 @@
         <location filename="../src/modules/normalmodule.cpp" line="173"/>
         <location filename="../src/modules/normalmodule.cpp" line="174"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Unterstützung erhalten</translation>
     </message>
     <message>
         <source>Support us</source>
@@ -301,42 +301,42 @@
     <message>
         <location filename="../src/modules/support.cpp" line="40"/>
         <source>Feedback &amp; User Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>Rückmeldung &amp; Benutzergruppen</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="41"/>
         <source>GXDE OS use Discord and Tencent QQ Group. You can click the button below to join our group conveniently</source>
-        <translation type="unfinished"></translation>
+        <translation>GXDE OS verwendet Discord und die Tencent QQ-Gruppe. Sie können auf die Schaltfläche unten klicken, um unserer Gruppe bequem beizutreten</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="42"/>
         <source>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join QQ Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/QQ.jpg&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klicken Sie, um der QQ-Gruppe beizutreten&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="43"/>
         <source>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to join Discord Group&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://discord.gg/t5Uf2xYpvA&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klicken Sie, um der Discord-Gruppe beizutreten&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="46"/>
         <source>FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Häufig gestellte Fragen</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="47"/>
         <source>FAQs can be found at the links below</source>
-        <translation type="unfinished"></translation>
+        <translation>Die FAQs finden Sie unter den folgenden Links</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="48"/>
         <source>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to check FAQs&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;https://www.gxde.org/en/install/faq&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klicken Sie, um die FAQs zu überprüfen&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="49"/>
         <source>You can create PR to enrich the list and help. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Click to Git Repo&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können einen Pull Request erstellen, um die Liste zu erweitern und zu helfen. &lt;a href=&apos;https://gitee.com/GXDE-OS/gxde-os.github.io&apos; target=&apos;_blank&apos; rel=&apos;noreferrer&apos;&gt;Klicken Sie zum Git-Repo&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="50"/>
@@ -346,27 +346,27 @@
     <message>
         <location filename="../src/modules/support.cpp" line="51"/>
         <source>For quality assurance of the GXDE project, we welcome more people to participate in the internal testing and feedback tracking. Become an Internal Testing Team member, you will</source>
-        <translation type="unfinished"></translation>
+        <translation>Für die Qualitätssicherung des GXDE-Projekts laden wir mehr Menschen ein, an den internen Tests und der Rückmeldungsverfolgung teilzunehmen. Werden Sie Mitglied im Internen Testteam, dann</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="52"/>
         <source>Get the latest achievements of GXDE and software timely.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erhalten Sie rechtzeitig die neuesten Errungenschaften von GXDE und Software.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="53"/>
         <source>Obtain the latest development plans and progress of GXDE project in advance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erhalten Sie im Voraus die neuesten Entwicklungspläne und den Fortschritt des GXDE-Projekts.</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="54"/>
         <source>Need advanced skill and be prepared to encounter bugs and errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Benötigen fortgeschrittene Fähigkeiten und sind auf das Auftreten von Fehlern und Problemen vorbereitet</translation>
     </message>
     <message>
         <location filename="../src/modules/support.cpp" line="55"/>
         <source>Find the entrance at Control Center --&gt; Update --&gt; Internal test settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Finden Sie den Eingang unter Systemsteuerung --&gt; Aktualisierung --&gt; Einstellungen für interne Tests</translation>
     </message>
     <message>
         <source>Get the latest achievements of deepin and software timely.</source>
@@ -404,7 +404,7 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fertig! GXDE ist für Sie bereit. Beginnen Sie jetzt Ihre produktive Reise.</translation>
     </message>
 </context>
 </TS>

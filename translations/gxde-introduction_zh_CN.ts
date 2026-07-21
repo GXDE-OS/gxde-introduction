@@ -414,7 +414,7 @@
         <location filename="../src/modules/welcomemodule.cpp" line="24"/>
         <source>Ready! GXDE is all set for you.
 Embark on your productive journey now.</source>
-        <translation type="unfinished">准备就绪！GXDE 已为您配置妥当，即刻开启高效之旅吧。</translation>
+        <translation>准备就绪！GXDE 已为您配置妥当，即刻开启高效之旅吧。</translation>
     </message>
 </context>
 </TS>
