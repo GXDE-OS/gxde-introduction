@@ -52,6 +52,8 @@ private:
   void updateModule(const int index);
   void animationHandle();
 
+  void mousePressEvent(QMouseEvent *event) override;
+
   BaseModuleWidget *initDesktopModeModule();
   BaseModuleWidget *initWMModeModule();
   QWidget *initWelcomeModule();

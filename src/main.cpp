@@ -46,7 +46,11 @@ int main(int argc, char *argv[])
 
     MainWindow w;
 
-    DPlatformWindowHandle::enableDXcbForWindow(&w, true);
+    if (!DApplication::isWayland()) {
+        DPlatformWindowHandle::enableDXcbForWindow(&w, true);
+    } else {
+        w.setWindowFlag(Qt::FramelessWindowHint);
+    }
 
     w.show();
     moveToCenter(&w);

@@ -25,7 +25,12 @@
 #include "modules/welcomemodule.h"
 #include "basemodulewidget.h"
 
+#include <DApplication>
+#include <QGuiApplication>
 #include <QHBoxLayout>
+#include <QMouseEvent>
+#include <QWindow>
+#include <QMouseEvent>
 #include <DTitlebar>
 #include <DPlatformWindowHandle>
 
@@ -100,11 +105,13 @@ void MainWindow::initUI()
 {
     setFixedSize(WINDOW_SIZE);
 
-    DPlatformWindowHandle* handle = new DPlatformWindowHandle(this);
-    handle->setBorderWidth(0);
-    handle->setWindowRadius(5);
-    handle->setEnableSystemMove(true);
-    handle->setEnableSystemResize(false);
+    if (!DApplication::isWayland()) {
+        DPlatformWindowHandle* handle = new DPlatformWindowHandle(this);
+        handle->setBorderWidth(0);
+        handle->setWindowRadius(5);
+        handle->setEnableSystemMove(true);
+        handle->setEnableSystemResize(false);
+    }
 
     m_fakerWidget = new QWidget(this);
     m_fakerWidget->show();
@@ -256,6 +263,17 @@ void MainWindow::animationHandle()
         m_last->deleteLater();
         m_last = nullptr;
     }
+}
+
+void MainWindow::mousePressEvent(QMouseEvent *event)
+{
+    if (DApplication::isWayland() && event->button() == Qt::LeftButton) {
+        if (windowHandle()) {
+            windowHandle()->startSystemMove();
+        }
+    }
+
+    QWidget::mousePressEvent(event);
 }
 
 BaseModuleWidget *MainWindow::initDesktopModeModule()
